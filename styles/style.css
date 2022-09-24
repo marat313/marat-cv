@@ -90,8 +90,7 @@ section .title::after{
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    /* font-family: 'Ubuntu', sans-serif; */
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
     font-weight: 500;
     transition: all 0.3s ease;
 }
@@ -140,9 +139,7 @@ section .title::after{
     display: none;
 }
 
-.typing{
-    color: aqua;
-}
+
 .typing::before, .typing-2::before{
     content: ' < ';
 }
@@ -187,14 +184,15 @@ section .title::after{
 /*-------------------------------------- home section styling ----------------------------------------*/
 .home{
     display: flex;
-    background: url(../img/Polygon\ Luminary.svg);
-    /* background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M 0%2c142 C 57.6%2c122.4 172.8%2c17.8 288%2c44 C 403.2%2c70.2 460.8%2c268.6 576%2c273 C 691.2%2c277.4 748.8%2c69.4 864%2c66 C 979.2%2c62.6 1036.8%2c241.8 1152%2c256 C 1267.2%2c270.2 1382.4%2c160.8 1440%2c137L1440 560L0 560z' fill='%23184a7e'%3e%3c/path%3e%3cpath d='M 0%2c553 C 96%2c517 288%2c383.4 480%2c373 C 672%2c362.6 768%2c511.6 960%2c501 C 1152%2c490.4 1344%2c356.2 1440%2c320L1440 560L0 560z' fill='%232264ab'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e") no-repeat center; */
+    background: url(../img/Circuit\ Primary.svg);
+    background-position: center;
+    background-size: cover;
     height: 100vh;
     color: #fff;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Source Code Pro', monospace;
 }
 .home .max-width{
   width: 100%;
@@ -225,7 +223,7 @@ section .title::after{
 }
 .home .home-content .text-3 span{
     color: crimson;
-    font-weight: 500;
+    font-weight: 700;
 }
 .home .home-content a{
     display: inline-block;
@@ -505,9 +503,6 @@ section .title::after{
 
 /*------------------------------------- contact section styling -----------------------------------*/
 
-.contact .title::after{
-    /* content: "get in touch"; */
-}
 .contact .title {
     margin-bottom: 0px;
 }
@@ -571,7 +566,7 @@ section .title::after{
     outline: none;
     padding: 0 15px;
     font-size: 17px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
     transition: all 0.3s ease;
 }
 .contact .right form .field input:focus,
