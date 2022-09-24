@@ -139,12 +139,11 @@ section .title::after{
     display: none;
 }
 
-
 .typing::before, .typing-2::before{
-    content: ' < ';
+    content: '< ';
 }
 .typing::after, .typing-2::after{
-    content: ' > ';
+    content: ' >';
 }
 /*--------------------------------- menu btn styling -------------------------------------------*/
 
@@ -708,11 +707,11 @@ footer span a:hover{
     }
     .home .home-content .text-2{
         font-size: 60px;
-        margin-top: 15px;
+        margin-top: 35px;
     }
     .home .home-content .text-3{
-        font-size: 32px;
-        margin-top: 15px;
+        font-size: 42px;
+        margin-top: 35px;
     }
     .home .home-content a{
         font-size: 20px;
@@ -726,7 +725,8 @@ footer span a:hover{
         font-size: 30px;
     }
     .home .home-content .text-3{
-        font-size: 15px;
+        display: flex;
+        font-size: 20px;
     }
     .about .about-content .right .text,
     .skills .skills-content .left .text{
@@ -749,5 +749,8 @@ footer span a:hover{
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+    .column p{
+        line-height: 2;
     }
 }

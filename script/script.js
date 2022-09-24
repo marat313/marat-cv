@@ -38,15 +38,15 @@ $(document).ready(function(){
     // typing text animation script
 
     var typed = new Typed(".typing", {
-        strings: ["Front end developer"],
-        typeSpeed: 30,
-        backSpeed: 50,
+        strings: ["Front-end-developer"],
+        typeSpeed: 25,
+        backSpeed: 25,
         loop: true
     });
     var typed = new Typed(".typing-2", {
-        strings: ["Front end developer"],
-        typeSpeed: 30,
-        backSpeed: 50,
+        strings: ["Front-end-developer"],
+        typeSpeed: 25,
+        backSpeed: 25,
         loop: true
     });
     var typed = new Typed(".html", {
