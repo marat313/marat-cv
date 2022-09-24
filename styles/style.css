@@ -626,6 +626,7 @@ footer span a:hover{
 /*------------------------------------ responsive media query start --------------------------------------*/
 
 
+
 @media (max-width: 1104px) {
     .about .about-content .left img{
         height: 350px;
@@ -720,10 +721,10 @@ footer span a:hover{
 }
 @media (max-width: 500px) {
     .home .home-content .text-2{
-        font-size: 50px;
+        font-size: 40px;
     }
     .home .home-content .text-3{
-        font-size: 27px;
+        font-size: 18px;
     }
     .about .about-content .right .text,
     .skills .skills-content .left .text{
