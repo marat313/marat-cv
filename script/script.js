@@ -49,20 +49,11 @@ $(document).ready(function(){
         backSpeed: 25,
         loop: true
     });
-    var typed = new Typed(".html", {
-        strings: ["HTML"],
-        typeSpeed: 30,
-        backSpeed: 50,
-        loop: true
-    });
+   
+    // typing style code
+
     var typed = new Typed(".css", {
         strings: ["CSS"],
-        typeSpeed: 30,
-        backSpeed: 50,
-        loop: true
-    });
-    var typed = new Typed(".js", {
-        strings: ["JAVASCRIPT"],
         typeSpeed: 30,
         backSpeed: 50,
         loop: true
@@ -73,7 +64,13 @@ $(document).ready(function(){
         backSpeed: 50,
         loop: true
     });
-    var typed = new Typed(".node", {
+    var typed = new Typed(".javascript", {
+        strings: ["JAVASCRIPT"],
+        typeSpeed: 30,
+        backSpeed: 50,
+        loop: true
+    });
+    var typed = new Typed(".nodejs", {
         strings: ["NODE JS"],
         typeSpeed: 30,
         backSpeed: 50,
