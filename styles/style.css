@@ -177,7 +177,6 @@ section .title::after {
     background: url(../img/background.png);
     background-position: center;
     background-size: cover;
-    /* backdrop-filter: blur(61px); */
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -185,6 +184,7 @@ section .title::after {
     background-attachment: fixed;
     font-family: "Source Code Pro", monospace;
 }
+
 
 .home .max-width {
     width: 100%;
@@ -581,6 +581,8 @@ footer span a:hover {
 
 /*------------------------------------ responsive media query start --------------------------------------*/
 
+
+
 @media (max-width: 1104px) {
     .about .about-content .left img {
         height: 350px;
@@ -717,3 +719,4 @@ footer span a:hover {
         margin: 10px;
     }
 }
+
