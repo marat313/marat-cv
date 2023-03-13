@@ -172,9 +172,9 @@ section .title::after {
       filter: brightness(90%);
 }
 /*-------------------------------------- home section styling ----------------------------------------*/
-.home {
+#home {
       display: flex;
-      background-image: url(./img/compute-ea4c57a4.png);
+      background-image: url(../img/compute-ea4c57a4.png);
       background-position: center;
       background-size: cover;
       background-size: cover;
@@ -675,9 +675,6 @@ footer span a:hover {
       }
 }
 @media (max-width: 500px) {
-      .home{
-            background-color: #161e32;
-      }
       .home .home-content .text-2 {
             font-size: 30px;
       }
