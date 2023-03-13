@@ -674,6 +674,12 @@ footer span a:hover {
       }
 }
 @media (max-width: 500px) {
+      .home{
+            background-image: url(../img/background.png);
+            background-position: center;
+            background-size: cover;
+            background-size: cover;
+      }
       .home .home-content .text-2 {
             font-size: 30px;
       }
