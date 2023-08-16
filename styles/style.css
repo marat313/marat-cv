@@ -177,7 +177,7 @@ section .title::after {
       background-image: url(../img/compute-ea4c57a4.png);
       background-position: center;
       background-size: cover;
-      background-size: cover;
+      background-repeat: no-repeat;
       background-attachment: fixed;
       height: 100vh;
       color: #fff;
@@ -674,7 +674,11 @@ footer span a:hover {
             width: 100%;
       }
 }
-@media (max-width: 500px) {
+@media (max-width: 400px) {
+      .home{
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 45%, rgba(0,212,255,1) 100%);
+      }
       .home .home-content .text-2 {
             font-size: 30px;
       }
